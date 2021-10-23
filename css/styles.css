@@ -238,11 +238,11 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #F18326;
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #8d4b13;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11522,15 +11522,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #F18326;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #F18326;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #F18326;
   }
 }
 
@@ -11549,21 +11549,21 @@ body {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/retro-bg.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/retro-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 .masthead, #controls {
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 .control {
   display: inline-block;
   width: 49%;
   margin-bottom: 3rem;
 }
-.control img {
+.masthead img {
   width: 70%;
   opacity: 80%;
 }
@@ -11588,8 +11588,10 @@ body {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
     padding: 0;
+  }
+  .masthead, #controls {
+    padding-top: 3rem;
   }
   .masthead h1, .masthead .h1 {
     font-size: 6.5rem;
@@ -11602,11 +11604,8 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
-.about-section p {
-  margin-bottom: 5rem;
 }
 
 .projects-section {
